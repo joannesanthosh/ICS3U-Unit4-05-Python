@@ -15,7 +15,7 @@ def main():
             result = result + number
         print("\nThe sum of the numbers is {}.".format(result))
     except Exception:
-        print("\nThis input is invalid.")
+        print("\n This is an invalid input. Please try again")
     finally:
         print("\nDone.")
 
